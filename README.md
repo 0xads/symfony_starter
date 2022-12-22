@@ -8,8 +8,7 @@ This is a starter that I use for my from scratch project.
 git clone
 cd docker
 docker-compose up -d
-docker-compose exec php-fpm bash
-composer install
+docker-compose exec php-fpm bash composer install
 ```
 
 Available on `http://localhost`.
